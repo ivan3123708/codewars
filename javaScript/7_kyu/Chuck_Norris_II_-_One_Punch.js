@@ -1,0 +1,1 @@
+function onePunch(items){ return typeof items === 'string' && items.length ? items.split(' ').sort((a, b) => { if (a > b) return 1; else if (a < b) return -1; else return 0}).join(' ').replace(/[ae]/gi, '') : 'Broken!' } //Don't leave this line!!
